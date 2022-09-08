@@ -1,0 +1,15 @@
+.alert{
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0.3rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+}
+
+.alert-success {
+    color: #106925;
+    background: #d4edda;
+}

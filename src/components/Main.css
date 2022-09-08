@@ -1,0 +1,55 @@
+
+.main_section{
+    border: 2px solid rgb(124, 159, 166);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border-width: 3px;
+    margin: auto;
+    margin-top: 15rem;
+    max-width: 35rem; 
+    
+}
+
+
+
+.clear_btn{
+    align-items: center;
+    border-color: transparent;
+    background: transparent;
+    color: rgb(232, 73, 73);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.clear_btn:hover{
+    color: rgb(203, 16, 16);
+    transition: all 0.3s linear;
+}
+
+input{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 0.6rem;
+    width: 20rem;
+    border: transparent;
+    background: rgb(176, 181, 182);
+}
+
+.submit_btn{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.6rem;
+    background: rgb(16, 184, 184);
+    border: transparent;
+    color: #f1f5f8;
+    width: 5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.submit_btn:hover{
+    background: rgb(8, 70, 70);
+}
+
+

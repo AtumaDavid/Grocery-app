@@ -1,0 +1,50 @@
+.grocery_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: xx-small;
+    font-weight: bold;
+    
+}
+
+.grocery_item:hover{
+    background: rgb(223, 224, 224);
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+}
+
+.grocery_list{
+    padding: 1rem;
+    
+}
+
+.edit_button,
+.delete_button {
+    border: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.edit_button{
+    color: rgb(57, 188, 57);
+    
+}
+
+.delete_button{
+    color: rgb(173, 70, 70);
+}
+
+.edit_button:hover{
+    color: rgb(11, 120, 11);
+    transition: all 0.3s linear;
+}
+
+.delete_button:hover{
+    color: rgb(152, 4, 4);
+    transition: all 0.3s linear;
+}
